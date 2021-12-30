@@ -18,3 +18,11 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.bg-indigo {
+  background-color: #7d3c98;
+}
+
+.bg-blue {
+  background-color: #21618c;
+}
