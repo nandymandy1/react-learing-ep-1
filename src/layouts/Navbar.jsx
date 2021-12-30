@@ -9,7 +9,7 @@ const AppBar = () => {
 
   return (
     <div>
-      <Navbar color="blue" expand="md" dark>
+      <Navbar color="blue" expand="md" dark fixed="top">
         <Link className="navbar-brand" to="/">
           My React App
         </Link>
@@ -24,6 +24,11 @@ const AppBar = () => {
             <NavItem>
               <Link className="nav-link" to="/about">
                 About
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link className="nav-link" to="/manage-blogs">
+                Blogs
               </Link>
             </NavItem>
           </Nav>
